@@ -6,6 +6,7 @@ In this lab we're going to create roaming Profiles in Windows Active Directory. 
 
 
 <h2>Environments Used </h2>
+
 - <b>Active Directory</b> 
 
 - <b>File Explorer</b>
