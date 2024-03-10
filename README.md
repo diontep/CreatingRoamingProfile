@@ -9,7 +9,7 @@ In this lab we're going to create roaming Profiles in Windows Active Directory. 
 - <b>Active Directory</b> 
 
 - <b>File Explorer</b>
-- 
+  
 - <b>Server Manager</b> 
 
 <h2>Walk-through:</h2>
