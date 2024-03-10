@@ -36,7 +36,7 @@ Allow “Full Control” by checking the checkboxes and click “Apply”. Click
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 Copy the “Network Path” (\\Server1\RoamingProfile) of this folder and click “Close”
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 Open “Server manager dashboard” and click “Tools”. Scroll down the menu and click “Active Directory Users and Computers”.
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
