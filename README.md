@@ -7,12 +7,12 @@ In this lab we're going to create roaming Profiles in Windows Active Directory. 
 
 <h2>Environments Used </h2>
 
-- <b>Active Diretory</b> 
+- <b>File Explorery</b> 
 
 <h2>Walk-through:</h2>
 <br />
 Create a folder named “RoamingProfile” on your C: drive  <br/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YcQQTAe.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Right-click the folder you created and scroll down its menu. Click “Properties”. <br/>
@@ -39,17 +39,17 @@ Copy the “Network Path” (\\Server1\RoamingProfile) of this folder and click 
 <img src="https://i.imgur.com/ErYQK0k.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 Open “Server manager dashboard” and click “Tools”. Scroll down the menu and click “Active Directory Users and Computers”.
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sGywZzg.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-Use the “End Users” Query we created on lab 2.2 to select the users that will get a roaming profile. Right-click and scroll down the menu. Click “Properties”.
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Use the “End Users” Query  to select the users that will get a roaming profile. Right-click and scroll down the menu. Click “Properties”.
+<img src="https://i.imgur.com/uXUXtaA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 Open the “Profile” tab and check the “Profile Path” text box. Enter the path \\Server1\RoamingProfile\%username% and click “OK”
 Note: %username% is a system variable. It will translate to the various user names when the user’s Roaming folder is created.
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/inS6lUM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 Once the Desktop is displayed, open the “RoamingProfile” folder. If you can see a new folder with the user name followed by a ‘.V6’ the roaming profiles are working and the user will have access to their environment and Desktop regardless of what computer they use, as long as that computer is registered on the domain. 
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ykQwTtA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
 
